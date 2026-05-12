@@ -125,3 +125,20 @@ yarn-error.log*
 
 # Logs
 *.log
+
+# Opencode
+.opencode/
+.agent/
+.kilocode/
+
+# Gemini
+.gemini/
+
+# Claude
+.claude/
+
+AGENTS.md
+CLAUDE.md
+openspec/
+.github/
+
