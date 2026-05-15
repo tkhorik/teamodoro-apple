@@ -89,6 +89,7 @@ openspec/
 .claude/
 .gemini/
 .kilocode/
+docs/ai-tooling.md
 
 # Windsurf / Codeium
 .windsurf/
