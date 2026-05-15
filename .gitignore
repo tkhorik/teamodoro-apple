@@ -74,20 +74,25 @@ Icon?
 .vscode/
 *.code-workspace
 
-# Kiro (AI IDE)
-.kiro/
-
 # Cursor (AI IDE)
 .cursor/
 .cursorignore
 .cursorindexingignore
 
+# AI assistant project instructions and local tool config
+AGENTS.md
+CLAUDE.md
+openspec/
+.github/
+.kiro/
+.agent/
+.claude/
+.gemini/
+.kilocode/
+
 # Windsurf / Codeium
 .windsurf/
 .codeium/
-
-# GitHub Copilot
-.github/copilot-instructions.md
 
 # JetBrains IDEs (AppCode, etc.)
 .idea/
@@ -128,17 +133,3 @@ yarn-error.log*
 
 # Opencode
 .opencode/
-.agent/
-.kilocode/
-
-# Gemini
-.gemini/
-
-# Claude
-.claude/
-
-AGENTS.md
-CLAUDE.md
-openspec/
-.github/
-
