@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13CE5CF4D34FF7B4D1EED324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6229A981929EFA6080746E3 /* Assets.xcassets */; };
+		462D860BB12530293AD4CC55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9722A5EFD6E1CBB7D85DB4BA /* Preview Assets.xcassets */; };
+		5F982DC3C20AC593A939E5CC /* TeamodoroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCD0D4B3C963E1C8AE89ECB /* TeamodoroApp.swift */; };
+		6AD704DE02D50C8B6BE61CD4 /* CycleRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEBF1698C9D907020C45AF5 /* CycleRingView.swift */; };
+		7D2EE11C3BE0C69F9CD8BB3F /* Color+Teamodoro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F02019D64C2BBED9E3609 /* Color+Teamodoro.swift */; };
+		7FE47EBFB823AF8D8DB7FD50 /* SynchronizedTimerCore in Frameworks */ = {isa = PBXBuildFile; productRef = 6F92796655FC9A525D45D770 /* SynchronizedTimerCore */; };
+		A3F847EE3976798FF868C8F6 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A9AF70CACEDDA7E419485F /* TimerView.swift */; };
+		D47B95327786EBB4053F3030 /* Phase+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B070AA4184936F3547F662 /* Phase+UI.swift */; };
+		E6567D9F95497F883B2D9E19 /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE909E2C89F881CD0210453 /* TimerViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4BCD0D4B3C963E1C8AE89ECB /* TeamodoroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamodoroApp.swift; sourceTree = "<group>"; };
+		55A9AF70CACEDDA7E419485F /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		6EE909E2C89F881CD0210453 /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
+		729F02019D64C2BBED9E3609 /* Color+Teamodoro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Teamodoro.swift"; sourceTree = "<group>"; };
+		9722A5EFD6E1CBB7D85DB4BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C6229A981929EFA6080746E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8B070AA4184936F3547F662 /* Phase+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Phase+UI.swift"; sourceTree = "<group>"; };
+		F40570246C83E68D19EB2812 /* teamodoro-apple */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "teamodoro-apple"; path = .; sourceTree = SOURCE_ROOT; };
+		FCEBF1698C9D907020C45AF5 /* CycleRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleRingView.swift; sourceTree = "<group>"; };
+		FDB36300C0CFCC41DEEC7276 /* Teamodoro.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Teamodoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B227D92746728FB2137E0988 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE47EBFB823AF8D8DB7FD50 /* SynchronizedTimerCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09352AF189BBBF76844499E1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9722A5EFD6E1CBB7D85DB4BA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0FBAED5AC900AC86D8A9E9D2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				729F02019D64C2BBED9E3609 /* Color+Teamodoro.swift */,
+				E8B070AA4184936F3547F662 /* Phase+UI.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2A56AA175E9DC3073731ACB1 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				F40570246C83E68D19EB2812 /* teamodoro-apple */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		3370561C44485DCE5BA05B63 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FCEBF1698C9D907020C45AF5 /* CycleRingView.swift */,
+				55A9AF70CACEDDA7E419485F /* TimerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6E6AC9D2650D34930373B015 /* TeamodoroApp */ = {
+			isa = PBXGroup;
+			children = (
+				0FBAED5AC900AC86D8A9E9D2 /* Extensions */,
+				09352AF189BBBF76844499E1 /* Preview Content */,
+				3370561C44485DCE5BA05B63 /* Views */,
+				C6229A981929EFA6080746E3 /* Assets.xcassets */,
+				4BCD0D4B3C963E1C8AE89ECB /* TeamodoroApp.swift */,
+				6EE909E2C89F881CD0210453 /* TimerViewModel.swift */,
+			);
+			path = TeamodoroApp;
+			sourceTree = "<group>";
+		};
+		7388D841B34B9CE830FE771A = {
+			isa = PBXGroup;
+			children = (
+				2A56AA175E9DC3073731ACB1 /* Packages */,
+				6E6AC9D2650D34930373B015 /* TeamodoroApp */,
+				F2490BE84FB216040AB08CF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2490BE84FB216040AB08CF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDB36300C0CFCC41DEEC7276 /* Teamodoro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FEA437091F43295D7F0D297 /* Teamodoro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C16B5C4A0AAF92D260563E90 /* Build configuration list for PBXNativeTarget "Teamodoro" */;
+			buildPhases = (
+				23E3C953F65BF35D06C16647 /* Sources */,
+				FF8710DF6A90984873E81785 /* Resources */,
+				B227D92746728FB2137E0988 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Teamodoro;
+			packageProductDependencies = (
+				6F92796655FC9A525D45D770 /* SynchronizedTimerCore */,
+			);
+			productName = Teamodoro;
+			productReference = FDB36300C0CFCC41DEEC7276 /* Teamodoro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5018A4B3DBAEF929CD16EEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					0FEA437091F43295D7F0D297 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 744C1A0136D03C4AA9183A60 /* Build configuration list for PBXProject "Teamodoro" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 7388D841B34B9CE830FE771A;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				97F40F740FAD5700AB320F2A /* XCLocalSwiftPackageReference "." */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F2490BE84FB216040AB08CF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FEA437091F43295D7F0D297 /* Teamodoro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF8710DF6A90984873E81785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CE5CF4D34FF7B4D1EED324 /* Assets.xcassets in Resources */,
+				462D860BB12530293AD4CC55 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23E3C953F65BF35D06C16647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D2EE11C3BE0C69F9CD8BB3F /* Color+Teamodoro.swift in Sources */,
+				6AD704DE02D50C8B6BE61CD4 /* CycleRingView.swift in Sources */,
+				D47B95327786EBB4053F3030 /* Phase+UI.swift in Sources */,
+				5F982DC3C20AC593A939E5CC /* TeamodoroApp.swift in Sources */,
+				A3F847EE3976798FF868C8F6 /* TimerView.swift in Sources */,
+				E6567D9F95497F883B2D9E19 /* TimerViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3AE7E010A215E9A6C3B0D6B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Teamodoro;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.teamodoro.app;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A6EDE3FBC94DC47C43DB6B87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Teamodoro;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.teamodoro.app;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4BA0D4B7E8F95ABF1134510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C0FFFB5C81CEA9192E36C895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		744C1A0136D03C4AA9183A60 /* Build configuration list for PBXProject "Teamodoro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4BA0D4B7E8F95ABF1134510 /* Debug */,
+				C0FFFB5C81CEA9192E36C895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C16B5C4A0AAF92D260563E90 /* Build configuration list for PBXNativeTarget "Teamodoro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EDE3FBC94DC47C43DB6B87 /* Debug */,
+				3AE7E010A215E9A6C3B0D6B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		97F40F740FAD5700AB320F2A /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6F92796655FC9A525D45D770 /* SynchronizedTimerCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SynchronizedTimerCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F5018A4B3DBAEF929CD16EEA /* Project object */;
+}
